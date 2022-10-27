@@ -1,0 +1,97 @@
+BST Data Structures Tests
+
+Tests are of the form:
+  Test Operation {expected item}: actual item
+  Contents: [contents from front to rear]
+
+================================================================================
+Testing BST
+  isEmpty {true}: true
+----------------------------------------
+Insert items: [1, 2, 3]
+  isEmpty {false}: false
+  Contents {[{1: 1}, {2: 1}, {3: 1}]}: [{1: 1}, {2: 1}, {3: 1}]
+  Height {3}: 3
+----------------------------------------
+
+================================================================================
+Testing AVL
+  isEmpty {true}: true
+----------------------------------------
+Insert items: [1, 2, 3]
+  isEmpty {false}: false
+  Contents {[{2: 1}, {1: 1}, {3: 1}]}: [{2: 1}, {1: 1}, {3: 1}]
+  Height {2}: 2
+----------------------------------------
+
+================================================================================
+Testing PopularityTree
+  isEmpty {true}: true
+----------------------------------------
+Insert items: [1, 2, 3]
+  isEmpty {false}: false
+  Contents {[{1: 0}, {2: 0}, {3: 0}]}: [{1: 0}, {2: 0}, {3: 0}]
+  Height {3}: 3
+----------------------------------------
+
+Retrieve items: 
+  retrieve {3: 1}: {3: 1}
+  Contents {[{3: 1}, {1: 0}, {2: 0}]}: [{1: 0}, {2: 0}, {3: 1}]
+  Height {3}: 3
+----------------------------------------
+
+================================================================================
+Testing file: decline.txt
+
+Data String: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+  Tree Type: BST
+  Height: 26
+  Comparisons: 14,984,757
+
+  Tree Type: PopularityTree
+  Height: 1
+  Comparisons: 1,281,559
+
+  Tree Type: AVL
+  Height: 5
+  Comparisons: 5,104,453
+
+Tree with minimum comparisons: PopularityTree
+------------------------------
+Data String: MFTCJPWADHKNRUYBEIGLOQSVXZ
+
+  Tree Type: BST
+  Height: 5
+  Comparisons: 5,167,147
+
+  Tree Type: PopularityTree
+  Height: 3
+  Comparisons: 2,918,703
+
+  Tree Type: AVL
+  Height: 5
+  Comparisons: 5,103,358
+
+Tree with minimum comparisons: PopularityTree
+------------------------------
+Data String: ETAOINSHRDLUCMPFYWGBVKJXZQ
+
+  Tree Type: BST
+  Height: 8
+  Comparisons: 4,699,306
+
+  Tree Type: PopularityTree
+  Height: 4
+  Comparisons: 3,344,331
+
+  Tree Type: AVL
+  Height: 6
+  Comparisons: 4,640,561
+
+Tree with minimum comparisons: PopularityTree
+------------------------------
+Character Table for Comparisons File
+
+Char    Count Percent
+   A   99,249  100.00

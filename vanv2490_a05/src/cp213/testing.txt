@@ -1,0 +1,111 @@
+Levi Van Veen A5 Testing
+
+----------------------------------------------------------------------------------------------------------------------
+
+TESTING Menu.java
+
+----------------------------------------------------------------------------------------------------------------------
+
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+TESTING RestaurantText.java :
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Welcome to WLU Foodorama!
+
+Menu:
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 12
+Menu:
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 1
+How many do you want? 4
+Command: word
+Not a valid number
+
+Menu:
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 5
+How many do you want? 0
+Command: 4
+How many do you want? 5
+Command: 7
+How many do you want? word
+Command: Not a valid number
+
+Menu:
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+Press 0 when done.
+Press any other key to see the menu again.
+
+Command: 0
+----------------------------------------
+Receipt
+hot dog       4 @ $  1.25 = $  5.00
+fries         5 @ $  1.75 = $  8.75
+
+Subtotal:                   $ 13.75
+Taxes:                      $  1.79
+Total:                      $ 15.54
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+TESTING RestaurantGUI.java :
+
+----------------------------------------------------------------------------------------------------------------------
+
+Item: hot dog      $ 1.25       Quantity:4
+Item: hamburger    $ 2.00       Quantity:6
+Item: cheeseburger $ 2.75       Quantity:3
+Item: fries        $ 1.75       Quantity:75
+Not a Number
+Item: fries        $ 1.75       Quantity:0
+Item: poutine      $ 3.75       Quantity:78
+Item: poutine      $ 3.75       Quantity:0
+Item: fries        $ 1.75       Quantity:3
+
